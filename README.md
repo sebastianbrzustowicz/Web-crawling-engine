@@ -6,7 +6,7 @@ Unit tests are available:
 ```
 npm test
 ```
-## Example
+## Examples
 ### First example
 Input:
 ```
