@@ -1,6 +1,20 @@
-//import { normalizeURL } from './crawl.js';
+//import { basic } from './crawl.js';
 
-//normalizeURL("https://stackoverflow.com/questions/950087/how-do-i-include-a-javascript-file-in-another-javascript-file")
+const { crawlPage } = require('./crawl.js')
 
+function main() {
+    if (process.argv.length<3){
+        console.log("no website provided")
+        process.exit(1)
+    }
+    if (process.argv.length>3){
+        console.log("too many command line args")
+        process.exit(1)
+    }
+    const baseURL = process.argv[2]
 
-console.log("hello world")
+    console.log(`starting crawl of ${baseURL}`)
+    crawlPage(baseURL)
+}
+
+main()
