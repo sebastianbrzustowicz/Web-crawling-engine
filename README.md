@@ -6,6 +6,10 @@ Unit tests are available:
 ```
 npm test
 ```
+Final tests results:
+###
+![Zrzut ekranu 2023-11-24 055808](https://github.com/sebastianbrzustowicz/Web-crawling-engine/assets/66909222/85357543-d4b3-4889-bb4e-31c7b317c01b)
+
 ## Examples
 ### First example
 Input:
