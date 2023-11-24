@@ -35,7 +35,7 @@ END REPORT
 ### Second example
 Input:
 ```
-npm start https://calendly.com/
+npm start https://calendly.com
 ```
 Output: 
 ```
